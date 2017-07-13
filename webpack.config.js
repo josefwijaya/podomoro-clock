@@ -5,7 +5,7 @@ var path = require('path');
 module.exports = {
   context: path.join(__dirname, "src"),
   devServer: {
-    host: '0.0.0.0',
+    host: 'https://podomoro-clock.herokuapp.com',
     port: process.env.PORT || 8080,
   },
   devtool: debug ? "inline-sourcemap" : null,
