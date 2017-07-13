@@ -5,6 +5,7 @@ var path = require('path');
 module.exports = {
   context: path.join(__dirname, "src"),
   devServer: {
+    disableHostCheck: true,
     port: process.env.PORT || 8080,
   },
   devtool: debug ? "inline-sourcemap" : null,
