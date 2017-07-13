@@ -1,0 +1,63 @@
+@font-face {
+  font-family: 'Clock';
+  src: url('../fonts/alarm-clock.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/alarm-clock.woff') format('woff'),
+        url('../fonts/alarm-clock.ttf') format('truetype'),
+        url('../fonts/alarm-clock.svg#svgFontName') format('svg');
+}
+
+.landing {
+  height: 100vh;
+  width: 100vw;
+  background: url('./img/bg1.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center
+}
+
+.timer {
+  width: 55%;
+  margin: auto auto;
+}
+
+.section{
+  width: 100%;
+  margin: 0 auto;
+}
+
+.timer-slider{
+  background-color: #333;
+  color: #f1f1f1;
+}
+
+.period {
+  font-size: 40px;
+}
+
+.period p {
+  margin-top: 30px;
+}
+
+.btn {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #f1f1f1;
+  border-radius: 0;
+  transition: .2s;
+  margin: 0 20px;
+}
+
+.btn:hover{
+    border: 1px solid #333;
+    background-color: #fff;
+    color: #000;
+}
+
+.time span {
+  font-family: 'Clock';
+  font-size: 200px;
+}
